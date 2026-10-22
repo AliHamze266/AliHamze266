@@ -42,7 +42,7 @@ So far, my projects have covered three areas:
 
 **NLP and generative AI on enterprise data.** An AI-powered chatbot for enterprise reporting that used NLP and text-to-SQL to give non-technical users access to company data in plain language, supported by prompt engineering for complex schemas and conversational context.
 
-**IoT and real-time data visualization.** An IoT-based augmented reality application that visualized live sensor data in real time.
+**IoT and real-time data visualization.** An IoT-based augmented reality application on the Meta Quest 3 that visualized live sensor data from MQTT and InfluxDB in real time, with room selection by voice.
 
 ---
 
@@ -69,6 +69,19 @@ So far, my projects have covered three areas:
       <img src="https://img.shields.io/badge/SAP%20HANA-0FAAFF?style=flat-square&logo=sap&logoColor=white" alt="SAP HANA">
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/AliHamze266/IoT-AR-Temperature-Monitor">IoT AR Temperature Monitor</a></h3>
+      <em>University project</em>
+      <p>Live room temperatures from campus IoT sensors in augmented reality on a Meta Quest 3. A Flask API reads MQTT and InfluxDB (Flux) data, a Unity app shows it colour-coded in the room, and German voice commands switch between rooms.</p>
+      <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" alt="Unity">
+      <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#">
+      <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" alt="MQTT">
+      <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=flat-square&logo=influxdb&logoColor=white" alt="InfluxDB">
+      <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 ---
@@ -83,6 +96,7 @@ So far, my projects have covered three areas:
 | **Generative AI & NLP** | LLMs, NL2SQL, prompt engineering, RAG, LangChain, LlamaIndex, knowledge graphs, sentence-transformers |
 | **Data** | pandas, NumPy, Matplotlib, Jupyter, statistics |
 | **Cloud & big data** | Microsoft Azure: Blob Storage, Data Lake Storage, Synapse Analytics, Cosmos DB · Apache Spark · Microsoft Fabric · AWS · Hadoop · Kafka · NoSQL |
+| **IoT & XR** | MQTT, InfluxDB (Flux), Flask, Unity, Meta Quest 3, Meta Voice SDK |
 | **MLOps & engineering** | FastAPI, REST APIs, Docker, Kubernetes, CI/CD, Git, GitHub |
 | **BI & SAP** | Power BI, Tableau, SAP Analytics Cloud, SAP Datasphere, SAP HANA, SAP ERP (TRM) |
 | **Ways of working** | Agile, cross-functional teams, IT project management, business case development |
